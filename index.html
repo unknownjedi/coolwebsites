@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cool Websites - Sample UI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="scripts.js"></script>
+    <style>
+      @font-face {
+        font-family: "JustSans";
+        src: url("assets/fonts/web-fonts/JUST-Sans-Regular.woff2")
+            format("woff2"),
+          url("assets/fonts/web-fonts/JUST-Sans-Regular.woff") format("woff");
+        font-weight: normal;
+        font-style: normal;
+      }
+      @font-face {
+        font-family: "JustSans";
+        src: url("assets/fonts/web-fonts/JUST-Sans-Bold.woff2") format("woff2"),
+          url("assets/fonts/web-fonts/JUST-Sans-Bold.woff") format("woff");
+        font-weight: bold;
+        font-style: normal;
+      }
+    </style>
+  </head>
+  <body>
+    <main
+      class="min-h-screen bg-black flex flex-col items-center justify-center p-4"
+    >
+      <div class="max-w-4xl mx-auto text-center space-y-6">
+        <h1
+          class="text-6xl md:text-8xl lg:text-10xl text-white leading-tight tracking-wide"
+        >
+          The
+          <span
+            class="relative my-3 bg-gradient-to-r from-[#e96363] to-[#e96363] bg-[length:0%_4px] bg-left-bottom bg-no-repeat animate-underlineExpand"
+          >
+            coolest websites
+          </span>
+          <br />
+          around the internet!
+        </h1>
+
+        <p class="text-white/90 text-lg md:text-xl">Curated by real humans</p>
+
+        <div class="pt-8">
+          <a
+            href="cool-websites.html"
+            class="inline-block px-8 py-3 text-black font-bold rounded-full text-lg uppercase tracking-wide bg-gradient-to-r from-[#ff7b72] to-yellow-300 transform hover:scale-105 transition-transform duration-200 ease-in-out"
+          >
+            Take me there!!!
+          </a>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

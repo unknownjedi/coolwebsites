@@ -1,0 +1,71 @@
+body {
+  font-family: "JustSans", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #f0f0f0;
+  color: #333;
+  text-align: center;
+}
+header {
+  background: #ff6b6b;
+  color: #fff;
+  padding: 20px;
+}
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+  animation: fadeIn 2s ease-in;
+}
+#take-me-there {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  background: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+#take-me-there:hover {
+  transform: scale(1.1);
+}
+main {
+  padding: 20px;
+}
+.category {
+  margin-bottom: 40px;
+}
+.category h2 {
+  font-size: 2em;
+  animation: fadeIn 1s ease-in;
+}
+.card {
+  background: #fff;
+  margin: 15px auto;
+  padding: 20px;
+  width: 80%;
+  max-width: 300px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+}
+footer {
+  background: #333;
+  color: #fff;
+  padding: 10px;
+  font-size: 1em;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
